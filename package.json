@@ -1,0 +1,24 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "PoC lottery on Ethereum blockchain",
+  "main": "lottery.js",
+  "scripts": {
+    "test": "truffle test",
+    "deploy": "truffle migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dolohow/eth-lottery"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "lottery"
+  ],
+  "author": "Łukasz Żarnowiecki <lukasz@zarnowiecki.pl>",
+  "license": "GPL-2.0-only",
+  "dependencies": {
+    "truffle": "^5.3.6"
+  }
+}
